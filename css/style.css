@@ -5,7 +5,9 @@
   box-sizing: border-box;
 }
 /* /reset */
-
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .container{
   width: 80%;
   margin: auto;
@@ -35,12 +37,11 @@
   margin: 15px 0;
   font-size: 20px;
   text-align: right;
-  
 }
 
 .login ul{
   list-style: none;
-  margin-left: 60%;
+  margin-left: 50%;
 }
 
 .login ul li{
@@ -88,7 +89,7 @@
 .main-nav ul li{
   list-style: none;
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 .main-nav ul li a{
   text-decoration: none;
