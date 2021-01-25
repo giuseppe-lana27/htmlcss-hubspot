@@ -119,9 +119,7 @@ body{
   padding: 20px;
   font-weight: 500;
 }
-.hero{
 
-}
 .hero img{
   object-fit: cover;
   width: 100%;
@@ -136,7 +134,42 @@ body{
   position: absolute;
   top: 98%;
   z-index: 1;
+}
+/* /header */
 
+/* main */
+.powerful{
+  width: 65%;
+  margin: 5% auto;
+  text-align: center;
+}
+.powerful img{
+  height: 150px;
+}
+.powerful h2{
+  font-size: 30px;
+  margin-bottom: 2%;
 }
 
-/* /header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /main */
