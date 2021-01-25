@@ -45,20 +45,34 @@
   display: inline-block;
 }
 .search{
+  text-decoration: none;
   color: #1E90FF;
   margin-right: 15px;
 }
 .login ul li a{
   text-decoration: none;
-  color: grey;
   margin-right: 15px;
 }
 
 .btn{
-  border: 1px solid black;
+  border: 1px solid orange;
   border-radius: 5px;
   padding: 8px;
+  color: orange;
 }
+
+.colored{
+  border: none;
+  background-color: orange;
+  color: white;
+}
+
+.logo{
+  width: 10%;
+  margin-top: 15px; 
+
+}
+
 
 
 
