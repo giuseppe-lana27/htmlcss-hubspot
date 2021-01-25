@@ -1,0 +1,65 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /reset */
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+/* header */
+.language{
+  width: 40%;
+  font-size: 20px;
+  color: grey;
+  margin: 15px 0;
+  float: left;
+}
+
+.container::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.contact{
+  margin-left: 20px;
+}
+
+.login{
+  width: 60%;
+  float: left;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.login ul{
+  list-style: none;
+  margin-left: 60%;
+}
+
+.login ul li{
+  display: inline-block;
+}
+.search{
+  color: #1E90FF;
+  margin-right: 15px;
+}
+.login ul li a{
+  text-decoration: none;
+  color: grey;
+  margin-right: 15px;
+}
+
+.btn{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+
+/* /header */
