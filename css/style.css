@@ -5,31 +5,39 @@
   box-sizing: border-box;
 }
 /* /reset */
+/* mix */
 body{
   font-family: 'Montserrat', sans-serif;
+  color: #536878;
 }
 .container{
   width: 80%;
   margin: auto;
   position: relative;
 }
-/* header */
-.language{
-  width: 40%;
-  font-size: 20px;
-  color: grey;
-  margin: 20px 0;
-  float: left;
-}
-
 .container::after{
   content: '';
   display: block;
   clear: both;
 }
+/* /mix */
+/* header */
+.language{
+  width: 40%;
+  font-size: 20px;
+  margin: 20px 0;
+  float: left;
+}
+.borded{
+  padding: 5px;
+  border-right: 1px solid grey;
+}
 
 .contact{
   margin-left: 20px;
+  text-decoration: none;
+  color: #536878;
+
 }
 
 .login{
@@ -93,7 +101,7 @@ body{
 }
 .main-nav ul li a{
   text-decoration: none;
-  color: grey;
+  color: #536878;
 }
 
 .description{
