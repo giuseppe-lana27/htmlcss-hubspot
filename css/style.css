@@ -351,9 +351,35 @@ nav{
 }
 .learn-description p{
   line-height: 25px;
+  margin-bottom: 50px;
 }
-
-
-
-
+.grid{
+  width: 80%;
+  margin: auto;
+}
+.grid-item{
+  width: calc(100% / 4);  
+  color: white;
+  text-align: center;
+  padding: 20px;
+  float: left;
+  border-bottom: 1px solid white;
+}
+.grid-item:not(:last-child){
+  border-right: 1px solid white;
+}
+.grid-item img{
+  height: 40px;
+}
+.grid-item i{
+  font-size: 30px;
+}
+.grid-item h2{
+  font-size: 40px;
+  margin: 15px 0;
+}
+.grid-item span{
+  font-size: 25px;
+  font-weight: 400;
+}
 /* /main */
