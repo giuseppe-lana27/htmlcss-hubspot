@@ -13,7 +13,6 @@ body{
 .container{
   width: 80%;
   margin: auto;
-
 }
 .clearfix::after{
   content: '';
@@ -130,7 +129,7 @@ nav{
 
 .hero{
   height: 700px;
-  background-color: rgba(255, 99, 71, 0.3);
+  background-color: rgba(255, 99, 71, 0.2);
   background-image: url('../img/jumbotron.png');
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -196,7 +195,6 @@ nav{
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .col{
   float: left;
 }
@@ -236,35 +234,29 @@ nav{
   vertical-align: middle;
   border: 1px solid #536878;
 }
-
 .right ul{
   list-style: none;
   margin-top: 25px;
 }
-
 .right ul li{
   display: inline-block;
   font-weight: 500;
 }
 .right ul li i{
   margin-right: 15px;
-  /* color: #FE775A; */
-
+  color: #FE775A;
 }
 .right ul li:not(:first-child){
   margin-left: 25px;
 }
-
 .hub-section{
   width: 100%;
   margin-top: 15%;
   margin-left: 1%;
 }
-
 .col.hub-right{
   margin-right: 0;
 }
-
 .hub-left,
 .hub-mid,
 .hub-right{
@@ -276,39 +268,33 @@ nav{
   box-shadow: 0 0 5px #333;
   padding: 10px;
 }
-
 .hub-left img,
 .hub-mid img,
 .hub-right img{
   height: 150px;
 }
-
 .hub-left h2,
 .hub-mid h2,
 .hub-right h2{
   margin: 25px 0;
 }
-
 .hub-left p,
 .hub-mid p,
 .hub-right p{
   margin-bottom: 80px;
 }
-
 .hub-left hr,
 .hub-mid hr,
 .hub-right hr{
   margin: auto;
   border: 1px solid grey;
 }
-
 .hub-left h3,
 .hub-mid h3,
 .hub-right h3{
   margin-top: 35px;
   text-transform: uppercase;
 }
-
 .hub-left ul,
 .hub-mid ul,
 .hub-right ul{
@@ -316,13 +302,11 @@ nav{
   margin-top: 35px;
   margin-bottom: 80px;
 }
-
 .hub-left ul li,
 .hub-mid ul li,
 .hub-right ul li{
   text-align: left;
 }
-
 .hub-left ul li i,
 .hub-mid ul li i,
 .hub-right ul li i{
@@ -335,14 +319,12 @@ nav{
   text-decoration: none;
   padding: 20px;
 }
-
 .learn-grow{
   width: 100%;
   height: 800px;
   margin-top: 60px;
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
-
 .learn-description{
   margin: auto;
   color: white;
@@ -439,7 +421,32 @@ nav{
 }
 .growing-img img{
   max-width: 60%;
-
+}
+/* /main */
+/* footer */
+.footer-top{
+  width: 100%;
+  height: 500px;
+  background-color: #32495B;
+}
+.foot-col{
+  width: calc((100% / 4) - 64px);
+  color: white;
+  display: inline-block;
+  margin: 0 30px;
+}
+.foot-col h4{
+  margin-top: 10%;
+}
+.foot-col ul{
+  list-style: none;
+}
+.foot-col ul li{
+  margin-top: 10%;
+}
+.foot-col ul li a{
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -450,4 +457,4 @@ nav{
 
 
 
-/* /main */
+/* /footer */
