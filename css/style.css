@@ -448,8 +448,23 @@ nav{
   text-decoration: none;
   color: white;
 }
-
-
+.foot-col .list-button a{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  color: #32495B;
+}
+.social{
+  display: inline-block;
+  margin-left: 0;
+}
+.social:not(:last-child){
+  margin-right: 35px;
+}
+.social i{
+  color: white;
+}
 
 
 
