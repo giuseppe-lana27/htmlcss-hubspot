@@ -431,6 +431,7 @@ nav{
 }
 .foot-col{
   width: calc((100% / 4) - 64px);
+  vertical-align: top;
   color: white;
   display: inline-block;
   margin: 0 30px;
