@@ -24,6 +24,7 @@ body{
   border-radius: 5px;
   padding: 8px;
   color: #FE775A;
+  display: inline-block;
 }
 ul li i{
   color: #FE775A;
@@ -34,17 +35,19 @@ header{
   background-color: #F4F9FD;
 }
 /* header-top */
+.header-top{
+  vertical-align: middle;
+}
 .language{
   width: 40%;
   font-size: 17px;
-  margin: 20px 0;
+  margin: 30px 0;
   float: left;
 }
 .borded{
   padding: 5px;
   border-right: 1px solid grey;
 }
-
 .contact{
   margin-left: 20px;
   text-decoration: none;
@@ -52,7 +55,7 @@ header{
 }
 .login{
   width: 60%;
-  float: left;
+  float: right;
   margin: 20px 0;
   font-size: 17px;
   text-align: right;
@@ -160,7 +163,7 @@ nav{
   width: 65%;
   margin: 5% auto;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -175,7 +178,7 @@ nav{
 .free-crm{
   width: 80%;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   margin-top: 10%;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -438,6 +441,7 @@ nav{
   padding: 10px;
   background-color: white;
   color: #32495B;
+  display: inline-block;
 }
 .social{
   display: inline-block;
